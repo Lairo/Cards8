@@ -10,10 +10,10 @@ namespace Cards8
     {
         static void Main()
         {
-            Card aceOfSpades = new Card("Ace", "Spades");
+            Card aceOfSpades = new Card("Ace", Suits.Spades);
             Console.WriteLine(aceOfSpades.Name);
-            Card duchessOfRoses = new Card("Duchess", "Roses");
-            Card dukeOfOxen = new Card("Duke", "Oxen");
+            Card duchessOfRoses = new Card("Duchess", Suits.Diamonds);
+            Card dukeOfOxen = new Card("Duke", Suits.Hearts);
             Console.WriteLine(duchessOfRoses.Name + "\n" + dukeOfOxen.Name);
         }
     }
